@@ -14,8 +14,9 @@
 .top-container{
   background-color: black;
   flex-grow: 1;
-  padding: 70px 70px 0 70px;
+  padding: 70px 70px 20px 70px;
   position: relative;
+  overflow-y: scroll;
 }
 
 .top-right-buttons{
@@ -44,14 +45,15 @@ gap: 8px;
 }
 .card{
 flex-basis: calc(100% / 7);
-padding:5px;
+padding:5px 3px ;
 }
 .card-content{
 background-image: url(https://picsum.photos/id/237/200/300);
-aspect-ratio: 17 / 9;
+aspect-ratio: 16/10;
 background-size: cover;
 background-position: center;
 position: relative;
+
 }
 .user{
   display: flex;
